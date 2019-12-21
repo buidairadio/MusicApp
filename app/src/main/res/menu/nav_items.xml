@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".screens.HomeScreenActivity.MainActivity"
+>
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with ic_noti_status_bar and Title
+        -->
+        <item
+                android:id="@+id/nav_it_first"
+                android:icon="@mipmap/ic_launcher"
+                android:title="First Menu" />
+        <item
+                android:id="@+id/nav_it_second"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Second Menu" />
+        <item
+                android:id="@+id/nav_it_third"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Third Menu" />
+    </group>
+
+</menu>

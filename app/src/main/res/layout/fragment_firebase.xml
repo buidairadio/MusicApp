@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_margin="@dimen/_10sdp"-->
+<!--            >-->
+
+<!--        <Button-->
+<!--                android:layout_width="@dimen/_100sdp"-->
+<!--                android:layout_height="@dimen/_50sdp"-->
+<!--                android:text="Choose file"-->
+<!--                android:id="@+id/btn_firebase_choose_file"-->
+<!--            />-->
+<!--        <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/app_name"-->
+<!--                android:id="@+id/tv_firebase_file_name"-->
+<!--            />-->
+<!--        <Button-->
+<!--                android:layout_width="@dimen/_100sdp"-->
+<!--                android:layout_height="@dimen/_50sdp"-->
+<!--                android:text="Upload"-->
+<!--                android:id="@+id/btn_firebase_upload"-->
+<!--                />-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            >
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/cv_firebase_play_all_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="@dimen/_0sdp"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:layout_gravity="center_vertical"
+                app:cardCornerRadius="15dp"
+                >
+
+            <ImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:src="@drawable/ic_play_all"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:clickable="false"
+                    android:id="@+id/iv_firebase_play_all_song"
+                    />
+
+        </android.support.v7.widget.CardView>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Play All"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Browse"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:id="@+id/tv_firebase_file_name"
+                android:maxLines="1"
+                android:gravity="right"
+                android:ellipsize="end"
+                />
+        <android.support.v7.widget.CardView
+                android:id="@+id/btn_firebase_choose_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardElevation="@dimen/_0sdp"
+                app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                android:layout_gravity="center"
+                app:cardCornerRadius="15dp"
+                >
+
+        <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_cloud_upload_black_24dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:clickable="false"
+                android:id="@+id/iv_firebase_choose_file"
+                />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_firebase_upload_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            />
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_firebase_fragment_online_song_list"
+
+            >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

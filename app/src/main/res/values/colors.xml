@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333745</color>
+    <color name="colorPrimaryDark">#333745</color>
+    <color name="colorAccent">#FE5F55</color>
+
+
+    <color name="colorPureWhite">#FFFFFF</color>
+    <color name="colorWhite">#EEF5DB</color>
+    <color name="colorBlack">#1c1f24</color>
+    <color name="colorBackgroundDark">#090916</color>
+    <color name="colorBackgroundLight">#efefef</color>
+
+    <color name="textColorGray">#C7EFCF</color>
+    <color name="textColorOrange">#db6f31</color>
+    <color name="textColorDark">#484343</color>
+    <color name="gradientLeft">#110e2d</color>
+    <color name="gradientRight">#541747</color>
+
+    <color name="notificationBackgroundColor">#0F091D</color>
+
+    <color name="colorPrimary_end">#81374B</color>
+    <color name="colorPrimary_end2">#37817F</color>
+    <color name="colorPrimary_center">#333745</color>
+    <color name="colorPrimary_center2">#334345</color>
+    <color name="colorTransparentDark">#4D222E</color>
+    <color name="colorTransparentLight">#128671B9</color>
+    <color name="colorAbsoluteTransparency">#00ffffff</color>
+    <color name="colorTransparencyBlack">#88090916</color>
+    <color name="card_color">#E0E0E0</color>
+    <color name="card_color_dark">#1A1A26</color>
+    <color name="blue">#25B7D3</color>
+    <color name="red">#E91E63</color>
+
+
+    <color name="colorLightWhite">#efefef</color>
+    <color name="colorLightWhite_end">#CFCFCF</color>
+
+</resources>
+
+<!--<color name="colorPrimary">#1A244C</color>-->
+<!--<color name="colorPrimaryDark">#1A244C</color>-->
+<!--<color name="colorAccent">#FFD025</color>-->
+
+<!--<color name="colorWhite">#FFFFFF</color>-->
+<!--<color name="textColorGray">#5F6385</color>-->
+<!--<color name="colorPrimary_end">#682746</color>-->
+<!--<color name="colorPrimary_center">#2C1E52</color>-->
+<!--<color name="colorTransparentDark">#6D2C1E52</color>-->
+<!--<color name="colorTransparentLight">#128671B9</color>-->
+<!--<color name="colorAbsoluteTransparency">#00ffffff</color>-->

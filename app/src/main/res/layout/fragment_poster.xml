@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".screens.HomeScreenActivity.PlayingQueueFragment.PosterFragment"
+        android:background="@color/colorAbsoluteTransparency"
+>
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/colorTransparentLight"
+            app:cardElevation="@dimen/_1sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_centerInParent="true"
+            android:id="@+id/cv_fragment_poster"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_fragment_poster_photo"
+                android:layout_gravity="center"
+        />
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/transparent_black"
+                android:id="@+id/iv_fragment_poster_overlay"
+                android:visibility="invisible"
+        />
+        <com.uet.teamduan.musicplayer.visual_effects.WaveformView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/wv_fragment_poster"
+        />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".screens.HomeScreenActivity.HomeScreenActivity"
+        android:background="@color/colorAbsoluteTransparency"
+        android:id="@+id/cl_home_screen"
+>
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/_0sdp"
+            android:id="@+id/abl_action_bar"
+            android:background="@drawable/gradient_left_right"
+    >
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@color/colorBackgroundLight"
+        />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ll_home_screen_fragment"
+            android:orientation="vertical"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/standard_item_height"
+    />
+    <include layout="@layout/player_bar_home_screen"/>
+
+</android.support.design.widget.CoordinatorLayout>

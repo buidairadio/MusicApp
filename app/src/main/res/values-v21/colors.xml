@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPallete1">#845EC2</color>
+    <color name="colorPallete2">#D65DB1</color>
+    <color name="colorPallete3">#FF6F91</color>
+    <color name="colorPallete4">#FF9671</color>
+    <color name="colorPallete5">#FFC75F</color>
+    <color name="colorPallete6">#F9F871</color>
+    <color name="colorPallete7">#009EFA</color>
+    <color name="colorPallete8">#00D2FC</color>
+    <color name="colorPallete9">#4FFBDF</color>
+    <color name="colorPallete10">#FAFAFA</color>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:background="@color/notificationBackgroundColor"
+>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_noti_title"
+    >
+        <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_songs"
+                android:id="@+id/iv_noti_thumb"
+                android:layout_margin="@dimen/_10sdp"
+
+        />
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hello world"
+                android:id="@+id/tv_noti_song_title"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textSize="@dimen/text_size_4"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textColor="@color/colorWhite"
+        />
+
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:id="@+id/bt_noti_close"
+                android:layout_weight="1"
+                android:visibility="gone"
+        >
+            <ImageView
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/ic_close_24dp"
+                    android:clickable="false"
+                    android:id="@+id/iv_noti_close"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_below="@+id/ll_noti_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+
+    >
+
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:id="@+id/bt_noti_prev"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_weight="1"
+
+
+        >
+            <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_previous_music_player"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="@dimen/_0sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+
+                android:id="@+id/bt_noti_state"
+                android:layout_weight="1"
+
+        >
+            <ImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/ic_play_music_player"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_noti_state"
+                    android:clickable="false"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="@dimen/_0sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+
+                android:id="@+id/bt_noti_next"
+                android:layout_weight="1"
+        >
+            <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_next_music_player"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+
+                android:id="@+id/bt_noti_love"
+                android:layout_weight="1"
+        >
+            <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/ic_like_white"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:id="@+id/iv_noti_love"
+            />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

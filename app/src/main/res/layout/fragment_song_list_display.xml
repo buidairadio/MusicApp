@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/rl_show_more_options_for_menu_item"
+    />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:id="@+id/rl_song_list_display_poster"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_playlist"
+                android:id="@+id/iv_song_list_display_poster"
+                android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/rl_song_list_display_poster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_song_list"
+    >
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_7sdp"
+            android:id="@+id/cv_song_list_display_play_all"
+            app:cardBackgroundColor="@color/textColorOrange"
+            android:layout_below="@+id/rl_song_list_display_poster"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginTop="-20dp"
+            app:cardElevation="@dimen/_4sdp"
+    >
+        <ImageView
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_13sdp"
+                android:src="@drawable/ic_play_all_dark"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+        />
+        <TextView
+                android:layout_marginStart="@dimen/_18sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play All"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBackgroundLight"
+        />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+<!--
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cv_song_list_display_options"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+
+                    app:cardElevation="@dimen/_0sdp"
+                    app:cardBackgroundColor="@color/colorAbsoluteTransparency"
+                    android:layout_gravity="center_vertical"
+            >
+
+                <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_more_vert_black_24dp"
+                        android:clickable="false"
+                />
+
+            </android.support.v7.widget.CardView>
+
+            -->

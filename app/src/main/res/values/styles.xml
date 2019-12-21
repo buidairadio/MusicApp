@@ -1,0 +1,47 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/textColorOrange</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:fontFamily">@font/main_font</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/textColorOrange</item>
+        <item name="android:textColor">@color/colorBackgroundLight</item>
+        <item name="android:fontFamily">@font/main_font</item>
+    </style>
+
+
+    <style name="my_time_picker" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="tab_layout_theme" parent="TextAppearance.Design.Tab">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/textColorOrange</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/textColorDark</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/textColorDark</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655027698138",
+    "firebase_url": "https://s10musicsplayer.firebaseio.com",
+    "project_id": "s10musicsplayer",
+    "storage_bucket": "s10musicsplayer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655027698138:android:c560b3d8fce5fcc1b068e3",
+        "android_client_info": {
+          "package_name": "com.sieunguoimay.vuduydu.s10musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655027698138-05gtibueivb9mn7kuiitro6vgk9hic2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sieunguoimay.vuduydu.s10musicplayer",
+            "certificate_hash": "7218a87b96bfd44a4301040ee718223382acdc5a"
+          }
+        },
+        {
+          "client_id": "655027698138-ptndrf5ft84kupcivkotj9o94beisons.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXqCm8p_ZBVFC-dtoG8c8AyC7G2r4bIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655027698138-ptndrf5ft84kupcivkotj9o94beisons.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

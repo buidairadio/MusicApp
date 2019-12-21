@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="company_name">UET</string>
+    <string name="designer_name">2019</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_home_screen">MUSIC PLAYER</string>
+    <string name="title_search_fragment">Search A Song</string>
+    <string name="action_bar_title_playing_queue">Playing Queue</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Header Title</string>
+    <string name="nav_header_subtitle">Header Subtitle</string>
+    <string name="nav_header_desc">Header Description</string>
+    <string name="action_search">Search</string>
+    <string name="playlist_menu_create">Create Playlist</string>
+    <string name="action_song_select_ok">Ok</string>
+    <string name="action_song_select_cancel">Cancel</string>
+
+    <string name="menu_equalizer">Equalizer</string>
+    <string name="menu_sleep_timer">Sleep Timer</string>
+    <string name="menu_skin_theme">Skin Theme</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="CHANNEL_ID">1</string>
+    <string name="channel_name">Music Player Notification Channel</string>
+    <string name="channel_description">A normal channel</string>
+
+
+    <string name="team_info">Development Team</string>
+    <string name="dev1">Bui Trong Dai</string>
+    <string name="dev2">Tran Van Tai Phat</string>
+    <string name="dev3">Nguyen Van Manh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">No song</string>
+</resources>
