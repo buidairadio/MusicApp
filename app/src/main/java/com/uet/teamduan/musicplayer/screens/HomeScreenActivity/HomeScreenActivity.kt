@@ -239,14 +239,33 @@ class HomeScreenActivity : AppCompatActivity()
                     if(song!=null){
                         song.firebaseStorageKey = p.key!!
                         onlineSongList.add(song)
+
+                        if(MusicPlayerService.serviceBound){
+                            if(service?.isOnline!!) {
+                                if(service?.getCurrentSong()!!.firebaseStorageKey.equals(song.firebaseStorageKey))
+                                    song.isPlaying = true
+                            }
+                        }
+
                     }
                 }
+
+                if(MusicPlayerService.serviceBound){
+                    if(service?.isOnline!!){
+
+                        //be toan bo song sang service lan nua
+                        //update the songList in service
+                        queueSetChanged = true
+                        listToAddToQueue.listType = ListTypes.LIST_TYPE_ONLINE_SONGS
+                        putSongListToQueue()
+
+                    }
+                }
+
                 onlineSongAdapter.notifyDataSetChanged()
 
-                //update the songList in service
-                queueSetChanged = true
-                listToAddToQueue.listType = ListTypes.LIST_TYPE_ONLINE_SONGS
-                putSongListToQueue()
+
+
             }
         })
 
@@ -306,7 +325,7 @@ class HomeScreenActivity : AppCompatActivity()
             object:StandardSongViewHolder.ItemMoreOptionClickListener {
                 override fun onItemMoreOptionClick(song: Song,view: View,songIndex: Int,playlistIndex: Int,listType: String)
                 {
-                    if(service?.isOnline!!)
+                    if(service?.isOnline!!&&song.isPlaying)// Ok nhung chua on lwms. sao ko?
                         return
 
 //                    Toast.makeText(applicationContext,"More option not specified",Toast.LENGTH_SHORT).show()
@@ -597,11 +616,11 @@ class HomeScreenActivity : AppCompatActivity()
 
 
 
-
     //click from songList
     override fun onItemClick(item: Pair<Int,Song>) {
         //here is the trigger point of the songIndexManager
-        playAllSong(item.first)
+        playAllSong(songMap[item.second.id]!!)
+//        playAllSong(item.first)
         //bottomSheet.state = BottomSheetBehavior.STATE_EXPANDED
     }
     fun playAllOnlineSong(fromIndex:Int){

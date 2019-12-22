@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\developer\\Musicplayer\\ZergitasS10MusicsPlayer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
+            "outputFile": "E:\\developer\\code project\\MusicApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\HK\\.gradle\\caches\\transforms-2\\files-2.1\\cc67c581d24967c1cb24c32a7392fa69\\play-services-basement-16.1.0\\res\\values-sr\\values.xml",

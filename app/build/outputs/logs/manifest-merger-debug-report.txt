@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\28890526dc526ca1ab79332b2c872f20\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\d7b7507e604857843894ba1f0cc757a0\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\4ce41d357b06059003a353a862f126a7\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -53,65 +53,65 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\HK\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\7d0c1af0e41c08273921c44f36bbb79f\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\5e24eefcf229da01f1c2577f75954baf\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\4728e7faff27f8abb59db5e6854b0fd1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:3:11-49
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:3:11-49
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:5:5-66
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\ff6e51e24a1e45899f1f1f2ba153ec13\firebase-database-16.0.4\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\ff6e51e24a1e45899f1f1f2ba153ec13\firebase-database-16.0.4\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\69219a25b3fa2121594cfd900afdd18b\firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\69219a25b3fa2121594cfd900afdd18b\firebase-storage-16.0.4\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:8:5-70
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:8:5-70
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:8:22-68
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:10:5-77
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:10:5-77
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:10:22-74
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:10:22-74
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:11:5-75
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:11:22-73
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:11:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:12:5-78
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:12:5-78
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\ff6e51e24a1e45899f1f1f2ba153ec13\firebase-database-16.0.4\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\ff6e51e24a1e45899f1f1f2ba153ec13\firebase-database-16.0.4\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\69219a25b3fa2121594cfd900afdd18b\firebase-storage-16.0.4\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-storage:16.0.4] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\69219a25b3fa2121594cfd900afdd18b\firebase-storage-16.0.4\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:12:22-76
 application
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:13:5-42:19
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:13:5-42:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\28890526dc526ca1ab79332b2c872f20\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\28890526dc526ca1ab79332b2c872f20\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\4ce41d357b06059003a353a862f126a7\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
@@ -141,53 +141,53 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\HK\.gradle\cac
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\e3cdfa4453386091b07f566f62363455\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:18:13-39
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:18:13-39
 	android:label
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:16:13-45
 	android:roundIcon
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:17:13-58
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:17:13-58
 	android:largeHeap
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:20:13-37
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:20:13-37
 	android:icon
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:15:13-51
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:15:13-51
 	android:allowBackup
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:14:13-39
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:14:13-39
 	android:theme
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:19:13-44
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:19:13-44
 activity#com.uet.teamduan.musicplayer.screens.SongSelectActivity
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:22:9-91
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:22:9-91
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:22:19-89
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:22:19-89
 service#com.uet.teamduan.musicplayer.services.MusicPlayerService
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:24:9-91
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:24:9-91
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:24:18-89
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:24:18-89
 receiver#com.uet.teamduan.musicplayer.services.notifications.NotificationDismissReceiver
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:26:9-115
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:26:9-115
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:26:19-113
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:26:19-113
 activity#com.uet.teamduan.musicplayer.screens.HomeScreenActivity.HomeScreenActivity
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:28:9-39:20
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:28:9-39:20
 	android:screenOrientation
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:31:17-53
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:31:17-53
 	android:label
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:30:17-67
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:30:17-67
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:29:17-106
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:29:17-106
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:35:17-68
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:35:17-68
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:37:17-76
+ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml:37:27-74
 uses-sdk
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\28890526dc526ca1ab79332b2c872f20\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\28890526dc526ca1ab79332b2c872f20\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\d7b7507e604857843894ba1f0cc757a0\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
@@ -286,16 +286,16 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HK\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\5e24eefcf229da01f1c2577f75954baf\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\4728e7faff27f8abb59db5e6854b0fd1\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\4728e7faff27f8abb59db5e6854b0fd1\runtime-1.1.1\AndroidManifest.xml:20:5-44
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		ADDED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
-		INJECTED from E:\developer\Musicplayer\ZergitasS10MusicsPlayer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\developer\code project\MusicApp\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\HK\.gradle\caches\transforms-2\files-2.1\30f6c47876fd9e507c2a51a3e4df3eb5\firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
